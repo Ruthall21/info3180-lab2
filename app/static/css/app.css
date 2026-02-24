@@ -1,3 +1,86 @@
-body {
-    padding-top: 5rem;
+/* ===============================
+   PROFILE PAGE STYLING
+================================= */
+
+.profile-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Profile Image */
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #6f42c1;
+}
+
+/* Name */
+.profile-container h2 {
+    margin-bottom: 5px;
+    color: #6f42c1;
+    font-weight: 600;
+}
+
+/* Username */
+.username {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Location + Joined */
+.profile-container p {
+    margin: 4px 0;
+}
+
+/* Bio */
+.bio {
+    margin: 15px 0;
+    font-style: italic;
+    color: #555;
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats strong {
+    display: block;
+    font-size: 20px;
+    color: #6f42c1;
+    margin-bottom: 3px;
+}
+
+/* Follow Button */
+.follow-btn {
+    padding: 10px 25px;
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.follow-btn:hover {
+    background-color: #5936a2;
+    transform: scale(1.05);
 }
