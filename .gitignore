@@ -4,7 +4,6 @@ Thumbs.db
 
 *.py[cod]
 *$py.class
-__pycache__
 
 # virtualenv
 .venv/
@@ -16,5 +15,6 @@ venv/
 # VS Code
 .vscode
 
+# Environment Variables
 .env
 .flaskenv
